@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 100vh;
+}
+
+main > * {
+  text-align: center;
+}
+
+section {
+  min-height: 50vh;
+}
+
+.smoked-glass {
+  /* From https://css.glass */
+  background: rgba(91, 91, 91, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+}
+
+.center-content-verticaly {
+  display: flex;
+  align-items: center;
+}
+.center-content-verticaly > * {
+  flex-grow: 1;
+}
