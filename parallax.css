@@ -1,4 +1,5 @@
 .parallax {
+  /* Disse tre CSS egenskapene plasserer bildet på en måte vi ønsker */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -7,7 +8,7 @@
   background-attachment: fixed;
 }
 
-/* Disse blir brukt for å sett bakgrunns bilde */
+/* Disse blir brukt for å sett bakgrunnsbildet */
 .image1 {
   background-image: url(https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80);
 }
@@ -19,12 +20,4 @@
 }
 .image4 {
   background-image: url(https://images.unsplash.com/photo-1613820070607-ef1d3ccc07f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80);
-}
-
-.mask {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: -50px;
-  margin-bottom: -50px;
-  background-color: rgba(165, 42, 42, 0.461);
 }

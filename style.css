@@ -5,7 +5,6 @@ main {
 
   min-height: 100vh;
 }
-
 main > * {
   text-align: center;
 }
@@ -22,6 +21,12 @@ section {
   -webkit-backdrop-filter: blur(8.2px);
 }
 
+/*
+  Disse to klassene blir brukt for å sentrere innholdet vertikalt.
+  Siden de hører sammen så benytter vi oss av CSS children selectoren ">",
+  sammen med joker / wildcard "*". Dette gjør av vi kun trenger å gi
+  klasse navn til et element, resten håndteres automatisk
+*/
 .center-content-verticaly {
   display: flex;
   align-items: center;
